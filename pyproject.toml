@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zwordle-cli"
+version = "0.1.0"
+description = "A CLI tool that allows you to play Wordle in your terminal"
+authors = [
+    {name = "Zwhan15", email = "duongthaihan15@gmail.com"},
+]
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "click",
+    "rich",
+]
+
+[project.scripts]
+wordle = "wordle:cli"
+
+[tool.setuptools]
+py-modules = ["wordle"]
+include-package-data = true
