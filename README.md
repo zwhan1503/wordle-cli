@@ -11,7 +11,5 @@ Play the popular word game [Wordle](https://www.nytimes.com/games/wordle/index.h
 
 Created using python's [click](https://github.com/pallets/click) and [rich](https://github.com/Textualize/rich) modules.
 
-![Preview of Wordle CLI](https://github.com/zwhan1503/wordle-cli/blob/main/assets/wordle.mp4)
-
-
+![Preview of Wordle CLI](https://github.com/user-attachments/assets/dff0688c-4eaf-44b0-95f1-a873f94cff3e)
 
